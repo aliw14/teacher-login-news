@@ -16,14 +16,15 @@ class Program
             if (command.ToLower().Equals("add teacher"))
             {
                 var teacher = new Teachers
-                {
-                    Id = 1,
+                {   Id = 1,
+                    Age=67,
                     Firstname="Ali",
                     lastname = "Mammadov",
                     EntryDate = DateTime.Now,
                     Profession = "Math",
                 };
                 teacherManager.Add(teacher);
+
             }
             else if (command.ToLower().Equals("print teacher"))
             {

@@ -8,7 +8,7 @@
 
         public override string ToString()
         {
-            return $"{Id}\n{Firstname} {lastname}\n{Profession}\n{EntryDate}";
+            return $"Id:{Id}\nAge:{Age}\nAd,Soyad:{Firstname} {lastname}\nProfession:{Profession}\nEntryDate:{EntryDate}";
         }
 
     }
