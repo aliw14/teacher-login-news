@@ -20,6 +20,7 @@ class Program
                     Age=67,
                     Firstname="Ali",
                     lastname = "Mammadov",
+                    subject="riyaziyyat",
                     EntryDate = DateTime.Now,
                     Profession = "Math",
                 };
